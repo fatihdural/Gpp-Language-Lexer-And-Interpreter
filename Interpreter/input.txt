@@ -1,0 +1,7 @@
+;; interpreter program by fatih dural
+(set aa (+ 1 2 '(* 5 4) '(- 10 10) 7)) ; a 30 olur.
+(set bb 70)							; b 70 olur
+(set cc (+ aa bb)) 			; c (+ 30 70) => 100 olur.
+(if (equal cc 100) 			; condition saglanir.
+	(set dd (append (list 1 2 3 (4 5) 6) (list (7 8) 9 10 ) ))	; iki liste append edilir. son islem oldugundan bu sonuc return edilecektir.
+)
